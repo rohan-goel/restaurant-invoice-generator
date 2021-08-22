@@ -3,16 +3,57 @@
   flex-direction: column;
   align-items: center;
 }
-*, ::after, ::before{
-  text-align: center;
-  box-sizing: border-box; 
+
+body {
+  background: #ffefba; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #ffffff,
+    #ffefba
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #ffffff,
+    #ffefba
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
-th, td {
+*,
+::after,
+::before {
+  text-align: center;
+  box-sizing: border-box;
+}
+th,
+td {
   padding: 10px;
 }
 
+.diplayblock-right {
+  display: block;
+}
 
-.diplayblock{
+.subtotal,
+.total {
+  text-align: right;
+  padding: 10px;
+}
+
+input {
+  width: 40px;
+  height: 30px;
+}
+
+.position-relative {
   display: flex;
-  
+  flex-direction: column;
+  align-items: flex-end;
+}
+button {
+  background-color: #f1d77e;
+  border: 2px solid #745d14;
+}
+.operationbtn {
+  padding: 5px;
+  margin: 10px 0px 10px 10px;
+  font-size: small;
 }

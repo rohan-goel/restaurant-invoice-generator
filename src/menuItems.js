@@ -1,29 +1,24 @@
 const MenuItems = [
   {
-    "quantity": 0,
-    "description": "Pizza",
-    "price": 500
+    description: "Pizza",
+    price: 500,
   },
   {
-    "quantity": 0,
-    "description": "Coffee",
-    "price": 100
+    description: "Coffee",
+    price: 100,
   },
   {
-    "quantity": 0,
-    "description": "Noodles",
-    "price": 200
+    description: "Noodles",
+    price: 200,
   },
   {
-    "quantity": 0,
-    "description": "Cold Drink",
-    "price": 60
+    description: "Cold Drink",
+    price: 50,
   },
   {
-    "quantity": 0,
-    "description": "French Fries",
-    "price": 150
+    description: "French Fries",
+    price: 150,
   },
-]
+];
 
 export default MenuItems;
